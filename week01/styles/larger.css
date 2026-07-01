@@ -1,0 +1,25 @@
+@media (min-width: 640px) {
+
+
+  #menu-button { display: none; }
+
+
+  #nav-menu {
+    width: auto;
+    margin-left: auto;
+  }
+
+  #nav-menu ul {
+    display: flex; 
+  }
+
+  #nav-menu a {
+    border-top: none; 
+    border-radius: 4px;
+  }
+
+
+  .courses {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

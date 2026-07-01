@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Eugenia Schulz - WDD 231</title>
+    <meta name="description" content="The Chamber of Commerce Site Plan.">
+    <meta name="author" content="Eugenia Schulz">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site logo" class="logo">
+        <span class="site-name">Eugenia Schulz</span>
+        <button id="menu-button" aria-label="Open menu">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="intro">
+            <h2>Welcome</h2>
+            <p>Introduction.</p>
+        </section>
+
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <menu class="filters">
+                <button id="all" class="active-filter">All</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+            </menu>
+            <div class="courses"></div>
+            <p class="credits-total">Total Credits: <span id="credits"></span></p>
+        </section>
+
+        <section class="extra">
+            <h2>Section Three</h2>
+            <p>Second content block here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/eugebyuidaho" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Eugenia Schulz 🌎 Provo, Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
