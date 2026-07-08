@@ -13,7 +13,7 @@
       "name": "Provo Bakery",
       "address": "3737 N Canyon Rd, Provo, UT 84604",
       "phone": "(801) 373-2100",
-      "website": "https://www.provobakery.com",
+      "website": "https://www.theprovobakery.com",
       "image": "provo-bakery.webp",
       "membershipLevel": 1,
       "description": "Family-owned bakery serving fresh bread, pastries, and custom cakes since 1938."
@@ -22,7 +22,7 @@
       "name": "Los Hermanos Restaurant",
       "address": "16 W Center St, Provo, UT 84601",
       "phone": "(801) 375-5732",
-      "website": "https://www.loshermanosmexican.com",
+      "website": "https://www.loshermanosutah.com",
       "image": "los-hermanos.webp",
       "membershipLevel": 2,
       "description": "Authentic Mexican cuisine and a Provo dining tradition for over 40 years."
@@ -45,15 +45,7 @@
       "membershipLevel": 1,
       "description": "Downtown eatery known for healthy bowls, salads, and a relaxed atmosphere."
     },
-    {
-      "name": "Utah Valley Chamber Bank",
-      "address": "180 N University Ave, Provo, UT 84601",
-      "phone": "(801) 356-5555",
-      "website": "https://www.uvchamberbank.com",
-      "image": "uv-bank.webp",
-      "membershipLevel": 2,
-      "description": "Local community bank offering personal and business financial services."
-    },
+
     {
       "name": "Provo Towne Centre",
       "address": "1200 Towne Centre Blvd, Provo, UT 84601",
@@ -67,7 +59,7 @@
       "name": "Rocky Mountain Movers",
       "address": "550 S 300 W, Provo, UT 84601",
       "phone": "(801) 400-7000",
-      "website": "https://www.rmmovers.com",
+      "website": "https://www.rockymountainmovers.net",
       "image": "rocky-mountain-movers.webp",
       "membershipLevel": 1,
       "description": "Local moving and storage company serving Utah Valley residents and businesses."
