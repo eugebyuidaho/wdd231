@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory | Provo Chamber of Commerce</title>
+    <meta name="description" content="Business directory for the Provo Chamber of Commerce, listing local member businesses and their contact information.">
+    <meta name="author" content="Eugenia Schulz">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Provo Chamber of Commerce Directory">
+    <meta property="og:description" content="Discover local member businesses in the Provo Chamber of Commerce.">
+    <meta property="og:image" content="https://eugebyuidaho.github.io/wdd231/chamber/images/chamber-og.jpg">
+    <meta property="og:url" content="https://eugebyuidaho.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Chamber logo" class="logo">
+        <span class="site-name">Provo Chamber</span>
+        <button id="menu-button" aria-label="Open menu">&#9776;</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <div class="view-toggle">
+            <button id="grid-view" aria-label="Grid view">Grid</button>
+            <button id="list-view" aria-label="List view">List</button>
+        </div>
+
+        <div id="members" class="grid">
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p class="footer-name">Provo Chamber of Commerce</p>
+            <p>123 University Avenue</p>
+            <p>Provo, Utah 84604</p>
+            <p>info@chamber.org</p>
+            <p>(801) 735-5458</p>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://github.com/eugebyuidaho" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+
+        <div class="footer-dev">
+            <p>WDD 231 &copy; <span id="currentyear"></span> Eugenia Schulz</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

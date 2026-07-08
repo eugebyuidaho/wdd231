@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "Nu Skin Enterprises",
+      "address": "75 W Center St, Provo, UT 84601",
+      "phone": "(801) 345-1000",
+      "website": "https://www.nuskin.com",
+      "image": "nuskin.webp",
+      "membershipLevel": 3,
+      "description": "Global company specializing in personal care products and dietary supplements."
+    },
+    {
+      "name": "Provo Bakery",
+      "address": "3737 N Canyon Rd, Provo, UT 84604",
+      "phone": "(801) 373-2100",
+      "website": "https://www.provobakery.com",
+      "image": "provo-bakery.webp",
+      "membershipLevel": 1,
+      "description": "Family-owned bakery serving fresh bread, pastries, and custom cakes since 1938."
+    },
+    {
+      "name": "Los Hermanos Restaurant",
+      "address": "16 W Center St, Provo, UT 84601",
+      "phone": "(801) 375-5732",
+      "website": "https://www.loshermanosmexican.com",
+      "image": "los-hermanos.webp",
+      "membershipLevel": 2,
+      "description": "Authentic Mexican cuisine and a Provo dining tradition for over 40 years."
+    },
+    {
+      "name": "Sundance Mountain Resort",
+      "address": "8841 N Alpine Loop Rd, Provo, UT 84604",
+      "phone": "(801) 225-4107",
+      "website": "https://www.sundanceresort.com",
+      "image": "sundance.webp",
+      "membershipLevel": 3,
+      "description": "Mountain resort offering skiing, dining, arts, and outdoor recreation."
+    },
+    {
+      "name": "Guru's Cafe",
+      "address": "45 E Center St, Provo, UT 84606",
+      "phone": "(801) 375-4878",
+      "website": "https://www.guruscafe.com",
+      "image": "gurus-cafe.webp",
+      "membershipLevel": 1,
+      "description": "Downtown eatery known for healthy bowls, salads, and a relaxed atmosphere."
+    },
+    {
+      "name": "Utah Valley Chamber Bank",
+      "address": "180 N University Ave, Provo, UT 84601",
+      "phone": "(801) 356-5555",
+      "website": "https://www.uvchamberbank.com",
+      "image": "uv-bank.webp",
+      "membershipLevel": 2,
+      "description": "Local community bank offering personal and business financial services."
+    },
+    {
+      "name": "Provo Towne Centre",
+      "address": "1200 Towne Centre Blvd, Provo, UT 84601",
+      "phone": "(801) 852-2900",
+      "website": "https://www.provotownecentre.com",
+      "image": "towne-centre.webp",
+      "membershipLevel": 2,
+      "description": "Regional shopping mall featuring retail stores, dining, and entertainment."
+    },
+    {
+      "name": "Rocky Mountain Movers",
+      "address": "550 S 300 W, Provo, UT 84601",
+      "phone": "(801) 400-7000",
+      "website": "https://www.rmmovers.com",
+      "image": "rocky-mountain-movers.webp",
+      "membershipLevel": 1,
+      "description": "Local moving and storage company serving Utah Valley residents and businesses."
+    }
+  ]
+}
