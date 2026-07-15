@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | Provo Chamber of Commerce</title>
-    <meta name="description" content="Business directory for the Provo Chamber of Commerce, listing local member businesses and their contact information.">
+    <title>Home | Provo Chamber of Commerce</title>
+    <meta name="description" content="The Provo Chamber of Commerce home page: local events, weather, and featured member businesses in Provo, Utah.">
     <meta name="author" content="Eugenia Schulz">
 
     <link rel="icon" href="images/favicon.ico">
 
-    <meta property="og:title" content="Provo Chamber of Commerce Directory">
-    <meta property="og:description" content="Discover local member businesses in the Provo Chamber of Commerce.">
+    <meta property="og:title" content="Provo Chamber of Commerce">
+    <meta property="og:description" content="Local events, weather, and featured businesses in Provo, Utah.">
     <meta property="og:image" content="https://eugebyuidaho.github.io/wdd231/chamber/images/chamber-og.jpg">
-    <meta property="og:url" content="https://eugebyuidaho.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://eugebyuidaho.github.io/wdd231/chamber/index.html">
     <meta property="og:type" content="website">
- 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -25,7 +25,8 @@
 
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/dates.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
 </head>
 <body>
     <header>
@@ -34,25 +35,42 @@
         <button id="menu-button" aria-label="Open menu">&#9776;</button>
         <nav id="nav-menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1>Business Directory</h1>
+    <main class="home">
+        <h1>Welcome to the Provo Chamber of Commerce</h1>
 
-        <div class="view-toggle">
-            <button id="grid-view" aria-label="Grid view">Grid</button>
-            <button id="list-view" aria-label="List view">List</button>
-        </div>
+        <section class="hero">
+            <img src="images/hero.webp" alt="View of Provo, Utah" width="1200" height="500">
+            <a href="#" class="cta">Join the Chamber</a>
+        </section>
 
-        <div id="members" class="grid">
+        <section class="events">
+            <h2>Current Events</h2>
+            <p>Downtown Provo Farmers Market — Saturdays, 9am–2pm at Pioneer Park.</p>
+            <p>Business Networking Luncheon — First Thursday of every month.</p>
+            <p>Provo Summer Concert Series — Fridays in July at the Startup Building.</p>
+        </section>
 
-        </div>
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-current">
+                <p id="current-temp"></p>
+                <p id="weather-desc"></p>
+            </div>
+            <div id="forecast" class="forecast"></div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-cards" class="spotlight-grid"></div>
+        </section>
     </main>
 
     <footer>
