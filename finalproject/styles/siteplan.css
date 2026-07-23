@@ -1,0 +1,260 @@
+:root {
+  --deep-sage: #4a4b38;
+  --savory-sage: #818263;
+  --avocado-smoothie: #c2c395;
+  --blush-beet: #ddbaae;
+  --peach-protein: #efd7cf;
+  --oat-latte: #dcd4c1;
+  --honey-oatmilk: #f6ead4;
+  --coconut-cream: #fffaf2;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Source Sans 3", Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--deep-sage);
+  background-color: var(--coconut-cream);
+}
+
+header {
+  background-color: var(--deep-sage);
+  color: var(--coconut-cream);
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0.4rem 0 0;
+  color: var(--avocado-smoothie);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+section {
+  background-color: var(--honey-oatmilk);
+  border: 1px solid var(--avocado-smoothie);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+section h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--savory-sage);
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.highlight {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  background-color: var(--peach-protein);
+  padding: 0.6rem 1rem;
+  border-radius: 0.35rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.note {
+  background-color: var(--oat-latte);
+  border-left: 5px solid var(--savory-sage);
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+ol {
+  margin: 0 0 0.5rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  background-color: var(--coconut-cream);
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  background-color: var(--coconut-cream);
+}
+
+caption {
+  text-align: left;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--avocado-smoothie);
+  vertical-align: middle;
+}
+
+thead th {
+  background-color: var(--oat-latte);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.swatch {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--savory-sage);
+}
+
+.swatch-deep-sage {
+  background-color: var(--deep-sage);
+}
+
+.swatch-savory-sage {
+  background-color: var(--savory-sage);
+}
+
+.swatch-avocado {
+  background-color: var(--avocado-smoothie);
+}
+
+.swatch-blush {
+  background-color: var(--blush-beet);
+}
+
+.swatch-peach {
+  background-color: var(--peach-protein);
+}
+
+.swatch-oat {
+  background-color: var(--oat-latte);
+}
+
+.swatch-honey {
+  background-color: var(--honey-oatmilk);
+}
+
+.swatch-coconut {
+  background-color: var(--coconut-cream);
+}
+
+.type-sample {
+  background-color: var(--coconut-cream);
+  border: 1px solid var(--avocado-smoothie);
+  border-radius: 0.4rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.type-sample p:last-child {
+  margin-bottom: 0;
+}
+
+.sample-display {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.sample-body {
+  font-family: var(--font-body);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.wireframes {
+  display: grid;
+  gap: 1.5rem;
+}
+
+figure {
+  margin: 0;
+  background-color: var(--coconut-cream);
+  border: 1px solid var(--savory-sage);
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--oat-latte);
+}
+
+figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--deep-sage);
+  color: var(--coconut-cream);
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 40rem) {
+  main {
+    padding: 2.5rem 2rem 3.5rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .wireframes {
+    grid-template-columns: 1fr 1.4fr;
+    align-items: start;
+  }
+}
