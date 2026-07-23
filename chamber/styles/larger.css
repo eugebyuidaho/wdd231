@@ -21,4 +21,16 @@
     flex-basis: auto;
     min-width: 200px;
   }
+
+  main.join {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .join h1 {
+    grid-column: 1 / -1;
+  }
+
 }

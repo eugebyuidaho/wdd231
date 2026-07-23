@@ -204,6 +204,206 @@ button {
   font-weight: 700;
 }
 
+.join h1 {
+  margin-bottom: 1rem;
+}
+
+.form-section {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+.join form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.join form input,
+.join form select,
+.join form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.6rem;
+  border: 1px solid var(--secondary);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+.join form input:focus,
+.join form select:focus,
+.join form textarea:focus {
+  outline: 3px solid var(--accent-dark);
+  outline-offset: 2px;
+}
+
+.join form input:invalid:not(:placeholder-shown):not([type="submit"]) {
+  border-color: var(--accent-dark);
+  border-width: 2px;
+}
+
+.join form textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: var(--primary);
+  color: var(--text-light);
+  border: none;
+  padding: 0.85rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: var(--accent-dark);
+}
+
+.levels h2 {
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+}
+
+.level-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--secondary);
+  border-left: 6px solid var(--primary);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: cardEntrance 0.6s ease-out forwards;
+}
+
+.card1 { animation-delay: 0.1s; }
+.card2 { animation-delay: 0.3s; }
+.card3 { animation-delay: 0.5s; }
+.card4 { animation-delay: 0.7s; }
+
+@keyframes cardEntrance {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.level-card h3 {
+  color: var(--primary);
+  margin: 0 0 0.5rem;
+}
+
+.level-card p {
+  margin: 0 0 0.75rem;
+}
+
+.level-link {
+  display: inline-block;
+  background-color: var(--accent-dark);
+  color: var(--text-light);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.level-link:hover {
+  background-color: var(--primary);
+}
+
+dialog {
+  border: none;
+  border-top: 8px solid var(--primary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 90%;
+  width: 400px;
+  background-color: var(--card-bg);
+  color: var(--text);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+dialog h3 {
+  color: var(--primary);
+  margin-top: 0;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+}
+
+dialog ul {
+  padding-left: 1.25rem;
+}
+
+dialog li {
+  margin-bottom: 0.4rem;
+}
+
+.close-modal {
+  background-color: var(--primary);
+  color: var(--text-light);
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.close-modal:hover {
+  background-color: var(--accent-dark);
+}
+
+.thankyou-message,
+.submission {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.thankyou-message h2,
+.submission h2 {
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.submission-list {
+  margin: 0;
+}
+
+.submission-list dt {
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 0.75rem;
+}
+
+.submission-list dd {
+  margin: 0.15rem 0 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--secondary);
+}
+
 footer p { margin: 0.25rem 0; }
 
 .footer-name { font-weight: 700; font-size: 1.1rem; }
